@@ -57,7 +57,7 @@ if domain_input:
                 st.success(f"Successfully purchased `{selected_domain}` for ${total_price}!")
                 st.write("Proceed to connect your domain below.")
             else:
-                st.error("Please enter a valid credit card number and CVV.")
+                st.error("Please enter a valid credit card number and CVV #.")
 
 # Domain connection section
 if st.button("Connect Domain"):
